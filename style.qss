@@ -1,0 +1,106 @@
+/* Global styles for dark mode */
+
+QWidget {
+    background-color: #282828; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for QSlider */
+
+QSlider {
+    background-color: transparent;
+    height: 8px; /* Set the height of the slider track */
+}
+
+QSlider::groove:horizontal {
+    background: #444; /* Darker track background color */
+    border: 1px solid #666; /* Darker border color */
+    height: 8px; /* Set the height of the slider track */
+    border-radius: 4px; /* Rounded corners */
+}
+
+QSlider::handle:horizontal {
+    background: #3498db; /* Accent color for the slider handle */
+    border: 1px solid #2075d3; /* Slightly darker border color */
+    width: 14px; /* Set the width of the handle */
+    margin: -6px 0; /* Center the handle vertically */
+    border-radius: 7px; /* Make the handle round */
+}
+
+QSlider::handle:vertical {
+    background: #3498db; /* Accent color for the slider handle */
+    border: 1px solid #2075d3; /* Slightly darker border color */
+    height: 14px; /* Set the width of the handle */
+    margin: -6px 0; /* Center the handle vertically */
+    border-radius: 7px; /* Make the handle round */
+}
+QSlider::groove:vertcial {
+    background: #444; /* Darker track background color */
+    border: 1px solid #666; /* Darker border color */
+    width: 8px; /* Set the height of the slider track */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Styles for QComboBox */
+
+QComboBox {
+    background-color: #d6d6d6; /* Darker background color */
+    border: 1px solid #666; /* Darker border */
+    color: #333333; /* Light text color */
+    padding: 2px;
+    border-radius: 3px;
+    min-width: 8em;
+    selection-background-color: #3498db; /* Accent color when an item is selected */
+    selection-color: white;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+    height: 20px;
+    subcontrol-origin: padding;
+    subcontrol-position: center right;
+    background-color: transparent;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #d6d6d6; /* Darker background for the dropdown list */
+    border: 1px solid #666; /* Darker border for the dropdown list */
+    color: #333333; /* Light text color for dropdown items */
+    selection-background-color: #3498db; /* Accent color for selected item */
+    selection-color: white;
+    padding: 2px;
+}
+
+/* Styles for QPushButton */
+
+QPushButton {
+    background-color: #3498db; /* Accent color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #2075d3;
+}
+
+/* Styles for QLineEdit */
+
+QLineEdit {
+    background-color: #444; /* Darker input background */
+    border: 1px solid #666; /* Darker border */
+    border-radius: 3px;
+    padding: 2px;
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Styles for QLabel */
+QLabel {
+    color: #f0f0f0; /* Light text color */
+    font-size: 16px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 0px; /* Padding for spacing */
+}

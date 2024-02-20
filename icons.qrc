@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/magnifying-glass.png</file>
+    <file>icons/recycle-bin.png</file>
+    <file>icons/zoom-in.png</file>
+    <file>icons/equalizer.png</file>
+    <file>icons/menu.png</file>
+    <file>icons/music-file.png</file>
+    <file>icons/mute.png</file>
+    <file>icons/pause.png</file>
+    <file>icons/play.png</file>
+    <file>icons/repeat.png</file>
+    <file>icons/video-file.png</file>
+    <file>icons/volume.png</file>
+    <file>icons/volume-down.png</file>
+  </qresource>
+</RCC>
