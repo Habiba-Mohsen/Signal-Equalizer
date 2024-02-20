@@ -32,6 +32,7 @@ SignalEqualizer Pro is a professional desktop application designed for signal ma
   - Real-time update reflecting changes made through equalizer sliders.
   - Option to toggle show/hide spectrograms for a clutter-free interface.
 ## Preview 
+[!watch demo](https://github.com/Habiba-Mohsen/Signal-Equalizer/blob/main/assets/Untitled%20video%20-%20Made%20with%20Clipchamp%20(4).gif)
 
 ## Contributors
  <a href="https://github.com/Habiba-Mohsen">
